@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+    background: rgb(1, 51, 0);
+    background: linear-gradient(135deg, rgba(1, 51, 0, 1) 0%, rgba(123, 255, 136, 1) 100%);
+}
+
+header {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+section.feature {
+    color: #fff;
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    background-image: url('./image/check.svg');
+    background-repeat: no-repeat;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+}
+
+.icon {
+    color: #fff;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.gallery {
+    background-color: whitesmoke;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.services {
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem;
+}
